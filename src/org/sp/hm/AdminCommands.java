@@ -42,7 +42,7 @@ public class AdminCommands {
 
     public void execute(CommandSender sender, String[] args) {
         if (args.length == 0) {
-            sender.sendMessage(Chat.$("/abox:"));
+            sender.sendMessage(Chat.$("/ahome:"));
             sender.sendMessage(Chat.$("list (PLAYER) - list homes of PLAYER"));
             sender.sendMessage(Chat.$("delete (PLAYER) [HOME] - delete HOME (or default) of PLAYER"));
             sender.sendMessage(Chat.$("purge (PLAYER) - delete all PLAYER'S homes"));
