@@ -1,0 +1,26 @@
+default-home: 1
+usage-delay: 30
+teleport-delay: 5
+max-homes: 2
+max-premium-homes: 6
+
+lang:
+    tp-delay: 'You will be teleported after %1 s.'
+    tp-now: 'You teleported immediately'
+    cooldown: 'Too fast!'
+    max-homes: 'You reached limit of max homes!'
+    home-set: 'Home set!'
+    homes: 'Your homes (%1, %2): '
+    no-home: 'There is not home!'
+    no-homes: 'There is no homes!'
+    restricted: 'You dont have permission!'
+    no-premium: 'You can\'t use that home, you're not premium!'
+
+db:
+    table: homes
+    player_row: player
+    name_row: name
+    location_row: location
+
+teleport-update: 20
+chat-color: a

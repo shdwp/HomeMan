@@ -1,0 +1,20 @@
+name: HomeMan
+main: org.sp.hm.HomeMan
+version: 1.0
+commands:
+   home:
+      description: Teleport you to home
+      permission: 
+      usage: /home [NAME]
+   sethome:
+      description: Set home on current location
+      permission: 
+      usage: /sethome [NAME]
+   homelist:
+      description: Prints home list
+      permission:
+      usage: /homelist
+   ahome:
+      description: Admin command
+      permission: homeman.admin
+      usage: /ahome (tp/list/delete/set) (*args)
