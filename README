@@ -1,1 +1,1 @@
-Bukkit plugin.
+Bukkit homes plugin. Correctly works only with mysql, uses MOCDBLib.
